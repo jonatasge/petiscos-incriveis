@@ -1,0 +1,14 @@
+.highlight {
+  align-items: center;
+  border-radius: 6px;
+  display: inline-flex;
+  font-weight: 700;
+  height: 1.4em;
+  padding: 6px;
+  text-shadow: none;
+}
+
+.highlight.primary {
+  background-color: #3AFC71;
+  color: #000;
+}

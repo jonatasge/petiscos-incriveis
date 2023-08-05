@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main {
+  padding: 62px 0 0;
+}
+
+section {
+  padding: 1rem;
+}
+
+section > div {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2em;
+  color: black;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.6em 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background, box-shadow, linear 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}

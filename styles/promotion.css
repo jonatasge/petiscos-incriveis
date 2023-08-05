@@ -1,0 +1,74 @@
+#promotion {
+  background-color: #f2f2f2;
+  padding: 4rem 1rem;
+}
+
+@media (max-width: 767px) {
+  #promotion {
+    padding: 2rem 1rem;
+  }
+}
+
+#promotion > div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: auto;
+}
+
+#promotion .text {
+  text-align: left;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  #promotion .text {
+    width: 90%;
+  }
+}
+
+#promotion .text > h2 {
+  font-size: 1.6rem;
+  margin: 0 0 1em;
+}
+
+#promotion .text > p {
+  font-size: 1.4rem;
+  margin: 0 0 1.8em;
+}
+
+@media (max-width: 767px) {
+  #promotion .text > p {
+    font-size: 1rem;
+  }
+}
+
+#promotion .text .btn {
+  background-color: #3afc71;
+  max-width: 350px;
+}
+
+#promotion .text .btn:hover {
+  background-color: #34e366;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  #promotion .text .btn {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+}
+
+#promotion img {
+  max-width: 600px;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  #promotion img {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
